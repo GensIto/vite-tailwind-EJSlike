@@ -1,8 +1,0 @@
-htmlにtailwind css 読み込み
-  https://bubudoufu.com/vite-js-bulma-tailwindcss/
-
-project参考
-  https://zenn.dev/sakata_kazuma/articles/59a741489c8bbc
-
-tailwindcss拡張
-  https://daisyui.com/docs/install/

@@ -1,5 +1,6 @@
 import './style.scss';
 import { hamburger } from './ts/hamburger';
+import { scrollAddClass } from './ts/scrollAddClass';
 // ======================================================================
 //
 // ## DOM
@@ -14,4 +15,12 @@ export const hamburgerMenu = document.querySelector('#hamburger-menu');
 // ## functions
 //
 // ======================================================================
+// ### hamburger
+// ----------------------------------------------------------------------
 hamburger();
+
+// ### Scroll Event
+// ----------------------------------------------------------------------
+window.addEventListener('scroll', () => {
+  scrollAddClass();
+});
